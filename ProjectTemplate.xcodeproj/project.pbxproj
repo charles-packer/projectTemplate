@@ -22,6 +22,7 @@
 		CE55C0F81D074BEF0023EAB4 /* ImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0F71D074BEF0023EAB4 /* ImageService.m */; };
 		CE55C0FB1D074BF90023EAB4 /* AnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0FA1D074BF90023EAB4 /* AnalyticsService.m */; };
 		CE55C1011D07704F0023EAB4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE55C1001D07704F0023EAB4 /* Podfile */; };
+		CE55C1041D07761F0023EAB4 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1031D07761F0023EAB4 /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		CE55C0F91D074BF90023EAB4 /* AnalyticsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsService.h; sourceTree = "<group>"; };
 		CE55C0FA1D074BF90023EAB4 /* AnalyticsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsService.m; sourceTree = "<group>"; };
 		CE55C1001D07704F0023EAB4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CE55C1021D07761F0023EAB4 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = services/CoreDataManager.h; sourceTree = "<group>"; };
+		CE55C1031D07761F0023EAB4 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = services/CoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,7 @@
 		CE55C0E11D072CDD0023EAB4 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				CE55C1051D077A940023EAB4 /* entities */,
 				CE55C0B71D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld */,
 			);
 			name = model;
@@ -204,6 +208,8 @@
 				CE55C0F71D074BEF0023EAB4 /* ImageService.m */,
 				CE55C0F91D074BF90023EAB4 /* AnalyticsService.h */,
 				CE55C0FA1D074BF90023EAB4 /* AnalyticsService.m */,
+				CE55C1021D07761F0023EAB4 /* CoreDataManager.h */,
+				CE55C1031D07761F0023EAB4 /* CoreDataManager.m */,
 			);
 			name = service;
 			sourceTree = "<group>";
@@ -223,6 +229,13 @@
 				CE55C0B41D072CD00023EAB4 /* Main.storyboard */,
 			);
 			name = storyboards;
+			sourceTree = "<group>";
+		};
+		CE55C1051D077A940023EAB4 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = entities;
 			sourceTree = "<group>";
 		};
 		D6212023637E2320AC1B7AF1 /* Frameworks */ = {
@@ -427,6 +440,7 @@
 				CE55C0B01D072CD00023EAB4 /* AppDelegate.m in Sources */,
 				CE55C0AD1D072CD00023EAB4 /* main.m in Sources */,
 				CE55C0F81D074BEF0023EAB4 /* ImageService.m in Sources */,
+				CE55C1041D07761F0023EAB4 /* CoreDataManager.m in Sources */,
 				CE55C0EF1D0742440023EAB4 /* HomeView.m in Sources */,
 				CE55C0EC1D07421D0023EAB4 /* DataService.m in Sources */,
 				CE55C0E91D0741B40023EAB4 /* HomeViewController.m in Sources */,
