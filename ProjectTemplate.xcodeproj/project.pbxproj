@@ -23,6 +23,10 @@
 		CE55C0FB1D074BF90023EAB4 /* AnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0FA1D074BF90023EAB4 /* AnalyticsService.m */; };
 		CE55C1011D07704F0023EAB4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE55C1001D07704F0023EAB4 /* Podfile */; };
 		CE55C1041D07761F0023EAB4 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1031D07761F0023EAB4 /* CoreDataManager.m */; };
+		CE55C10E1D077CBC0023EAB4 /* Player+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1071D077CBC0023EAB4 /* Player+CoreDataProperties.m */; };
+		CE55C10F1D077CBC0023EAB4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1091D077CBC0023EAB4 /* Player.m */; };
+		CE55C1101D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C10B1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m */; };
+		CE55C1111D077CBC0023EAB4 /* PlayerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C10D1D077CBC0023EAB4 /* PlayerDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,14 @@
 		CE55C1001D07704F0023EAB4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CE55C1021D07761F0023EAB4 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = services/CoreDataManager.h; sourceTree = "<group>"; };
 		CE55C1031D07761F0023EAB4 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = services/CoreDataManager.m; sourceTree = "<group>"; };
+		CE55C1061D077CBC0023EAB4 /* Player+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Player+CoreDataProperties.h"; path = "entities/Player+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE55C1071D077CBC0023EAB4 /* Player+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Player+CoreDataProperties.m"; path = "entities/Player+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE55C1081D077CBC0023EAB4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = entities/Player.h; sourceTree = "<group>"; };
+		CE55C1091D077CBC0023EAB4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = entities/Player.m; sourceTree = "<group>"; };
+		CE55C10A1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlayerDetails+CoreDataProperties.h"; path = "entities/PlayerDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE55C10B1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlayerDetails+CoreDataProperties.m"; path = "entities/PlayerDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE55C10C1D077CBC0023EAB4 /* PlayerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerDetails.h; path = entities/PlayerDetails.h; sourceTree = "<group>"; };
+		CE55C10D1D077CBC0023EAB4 /* PlayerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerDetails.m; path = entities/PlayerDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +246,14 @@
 		CE55C1051D077A940023EAB4 /* entities */ = {
 			isa = PBXGroup;
 			children = (
+				CE55C1061D077CBC0023EAB4 /* Player+CoreDataProperties.h */,
+				CE55C1071D077CBC0023EAB4 /* Player+CoreDataProperties.m */,
+				CE55C1081D077CBC0023EAB4 /* Player.h */,
+				CE55C1091D077CBC0023EAB4 /* Player.m */,
+				CE55C10A1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.h */,
+				CE55C10B1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m */,
+				CE55C10C1D077CBC0023EAB4 /* PlayerDetails.h */,
+				CE55C10D1D077CBC0023EAB4 /* PlayerDetails.m */,
 			);
 			name = entities;
 			sourceTree = "<group>";
@@ -441,11 +461,15 @@
 				CE55C0AD1D072CD00023EAB4 /* main.m in Sources */,
 				CE55C0F81D074BEF0023EAB4 /* ImageService.m in Sources */,
 				CE55C1041D07761F0023EAB4 /* CoreDataManager.m in Sources */,
+				CE55C10E1D077CBC0023EAB4 /* Player+CoreDataProperties.m in Sources */,
 				CE55C0EF1D0742440023EAB4 /* HomeView.m in Sources */,
+				CE55C10F1D077CBC0023EAB4 /* Player.m in Sources */,
+				CE55C1101D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m in Sources */,
 				CE55C0EC1D07421D0023EAB4 /* DataService.m in Sources */,
 				CE55C0E91D0741B40023EAB4 /* HomeViewController.m in Sources */,
 				CE55C0FB1D074BF90023EAB4 /* AnalyticsService.m in Sources */,
 				CE55C0B91D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld in Sources */,
+				CE55C1111D077CBC0023EAB4 /* PlayerDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

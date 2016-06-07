@@ -2,6 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ProjectTemplate/entities/Player+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/Player+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/Player.h">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/Player.m">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/PlayerDetails+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/PlayerDetails+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/PlayerDetails.h">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTemplate/entities/PlayerDetails.m">
+   </FileRef>
+   <FileRef
       location = "group:ProjectTemplate.xcodeproj">
    </FileRef>
    <FileRef
