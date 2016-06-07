@@ -10,4 +10,21 @@
 
 @implementation DataService
 
++ (instancetype)instance
+{
+    static DataService *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[DataService alloc] init];
+        // Do any other initialisation stuff here
+    });
+    return sharedInstance;
+}
+
+
+-(void)getUserData
+{
+    
+}
+
 @end

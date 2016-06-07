@@ -10,4 +10,6 @@
 
 @interface AnalyticsService : NSObject
 
++(AnalyticsService*)instance;
+
 @end

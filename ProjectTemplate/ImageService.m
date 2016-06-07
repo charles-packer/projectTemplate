@@ -9,5 +9,14 @@
 #import "ImageService.h"
 
 @implementation ImageService
-
++ (instancetype)instance
+{
+    static ImageService *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[ImageService alloc] init];
+        // Do any other initialisation stuff here
+    });
+    return sharedInstance;
+}
 @end

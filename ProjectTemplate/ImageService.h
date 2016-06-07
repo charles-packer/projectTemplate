@@ -10,4 +10,6 @@
 
 @interface ImageService : NSObject
 
+
++(ImageService*)instance;
 @end

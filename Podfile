@@ -4,7 +4,9 @@
 # use_frameworks!
 
 target 'ProjectTemplate' do
-
+    pod 'AFNetworking', '~> 3.0'
+    pod 'Google/Analytics'
+    pod "MagicalRecord"
 end
 
 target 'ProjectTemplateTests' do

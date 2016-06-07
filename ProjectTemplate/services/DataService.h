@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface DataService : NSObject
-
+{
+    
+}
++(DataService*)instance;
+-(void)getUserData;
 @end

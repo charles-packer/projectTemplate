@@ -10,4 +10,14 @@
 
 @implementation AnalyticsService
 
++ (instancetype)instance
+{
+    static AnalyticsService *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[AnalyticsService alloc] init];
+        // Do any other initialisation stuff here
+    });
+    return sharedInstance;
+}
 @end
