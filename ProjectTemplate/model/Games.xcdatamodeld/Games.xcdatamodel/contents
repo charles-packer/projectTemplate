@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="Games" representedClassName="Games" syncable="YES">
+        <attribute name="forecast" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameTIme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lineup1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lineup2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Games" positionX="-54" positionY="-9" width="128" height="150"/>
+    </elements>
+</model>

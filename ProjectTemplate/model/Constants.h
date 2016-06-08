@@ -1,6 +1,6 @@
 //
-//  DataService.h
-//  ProjectTemplate
+//  Constants.h
+//  LineupBuilder
 //
 //  Created by charles_packer on 6/7/16.
 //  Copyright © 2016 Hot Streak Games. All rights reserved.
@@ -8,10 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DataService : NSObject
-{
-    
-}
-+(DataService*)instance;
--(void)getTodaysGames;
+@interface Constants : NSObject
+extern NSString * const kPlayersURL;
+extern NSString * const kTodaysLineupURL;
 @end

@@ -13,9 +13,10 @@
 
 @implementation PlayerDetails (CoreDataProperties)
 
-@dynamic projected;
+@dynamic fullName;
 @dynamic team;
-@dynamic opponent;
+@dynamic projectedScore;
+@dynamic projectedValue;
 @dynamic player;
 
 @end

@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4492C286CA1885CB3053B984 /* libPods-ProjectTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A058C8A6B23561BB0DDBC9 /* libPods-ProjectTemplate.a */; };
+		CE1D88831D07908A00DEF823 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D88821D07908A00DEF823 /* Constants.m */; };
+		CE1D88861D079EFF00DEF823 /* Games.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE1D88841D079EFF00DEF823 /* Games.xcdatamodeld */; };
+		CE1D88971D07B10A00DEF823 /* Games+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D88941D07B10A00DEF823 /* Games+CoreDataProperties.m */; };
+		CE1D88981D07B10A00DEF823 /* Games.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D88961D07B10A00DEF823 /* Games.m */; };
 		CE55C0AD1D072CD00023EAB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0AC1D072CD00023EAB4 /* main.m */; };
 		CE55C0B01D072CD00023EAB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0AF1D072CD00023EAB4 /* AppDelegate.m */; };
 		CE55C0B61D072CD00023EAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55C0B41D072CD00023EAB4 /* Main.storyboard */; };
-		CE55C0B91D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0B71D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld */; };
 		CE55C0BB1D072CD00023EAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE55C0BA1D072CD00023EAB4 /* Assets.xcassets */; };
 		CE55C0BE1D072CD00023EAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55C0BC1D072CD00023EAB4 /* LaunchScreen.storyboard */; };
 		CE55C0C91D072CD00023EAB4 /* ProjectTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0C81D072CD00023EAB4 /* ProjectTemplateTests.m */; };
@@ -23,10 +26,11 @@
 		CE55C0FB1D074BF90023EAB4 /* AnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C0FA1D074BF90023EAB4 /* AnalyticsService.m */; };
 		CE55C1011D07704F0023EAB4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE55C1001D07704F0023EAB4 /* Podfile */; };
 		CE55C1041D07761F0023EAB4 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1031D07761F0023EAB4 /* CoreDataManager.m */; };
-		CE55C10E1D077CBC0023EAB4 /* Player+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1071D077CBC0023EAB4 /* Player+CoreDataProperties.m */; };
-		CE55C10F1D077CBC0023EAB4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1091D077CBC0023EAB4 /* Player.m */; };
-		CE55C1101D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C10B1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m */; };
-		CE55C1111D077CBC0023EAB4 /* PlayerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C10D1D077CBC0023EAB4 /* PlayerDetails.m */; };
+		CE55C1171D0781490023EAB4 /* Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1151D0781490023EAB4 /* Player.xcdatamodeld */; };
+		CE55C1201D0782430023EAB4 /* Player+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C1191D0782430023EAB4 /* Player+CoreDataProperties.m */; };
+		CE55C1211D0782430023EAB4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C11B1D0782430023EAB4 /* Player.m */; };
+		CE55C1221D0782430023EAB4 /* PlayerDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C11D1D0782430023EAB4 /* PlayerDetails+CoreDataProperties.m */; };
+		CE55C1231D0782430023EAB4 /* PlayerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55C11F1D0782430023EAB4 /* PlayerDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,19 +54,26 @@
 		33A058C8A6B23561BB0DDBC9 /* libPods-ProjectTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8228491D41D5B9226FCA676D /* Pods-ProjectTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		AC7EADE6E69048810575DC79 /* Pods-ProjectTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		CE55C0A81D072CD00023EAB4 /* ProjectTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1D88811D07908A00DEF823 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
+		CE1D88821D07908A00DEF823 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = model/Constants.m; sourceTree = "<group>"; };
+		CE1D88851D079EFF00DEF823 /* Games.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Games.xcdatamodel; sourceTree = "<group>"; };
+		CE1D88901D07A88800DEF823 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keys.h; path = model/Keys.h; sourceTree = "<group>"; };
+		CE1D88931D07B10A00DEF823 /* Games+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Games+CoreDataProperties.h"; path = "model/entities/Games+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE1D88941D07B10A00DEF823 /* Games+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Games+CoreDataProperties.m"; path = "model/entities/Games+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE1D88951D07B10A00DEF823 /* Games.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Games.h; path = model/entities/Games.h; sourceTree = "<group>"; };
+		CE1D88961D07B10A00DEF823 /* Games.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Games.m; path = model/entities/Games.m; sourceTree = "<group>"; };
+		CE55C0A81D072CD00023EAB4 /* LineupBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineupBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE55C0AC1D072CD00023EAB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE55C0AE1D072CD00023EAB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE55C0AF1D072CD00023EAB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE55C0B51D072CD00023EAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE55C0B81D072CD00023EAB4 /* ProjectTemplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectTemplate.xcdatamodel; sourceTree = "<group>"; };
 		CE55C0BA1D072CD00023EAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE55C0BD1D072CD00023EAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE55C0BF1D072CD00023EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE55C0C41D072CD00023EAB4 /* ProjectTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE55C0C41D072CD00023EAB4 /* LineupBuilder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineupBuilder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE55C0C81D072CD00023EAB4 /* ProjectTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTemplateTests.m; sourceTree = "<group>"; };
 		CE55C0CA1D072CD00023EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE55C0CF1D072CD00023EAB4 /* ProjectTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE55C0CF1D072CD00023EAB4 /* LineupBuilder.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineupBuilder.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE55C0D31D072CD00023EAB4 /* ProjectTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTemplateUITests.m; sourceTree = "<group>"; };
 		CE55C0D51D072CD00023EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE55C0E71D0741B40023EAB4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controllers/HomeViewController.h; sourceTree = "<group>"; };
@@ -80,14 +91,15 @@
 		CE55C1001D07704F0023EAB4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CE55C1021D07761F0023EAB4 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = services/CoreDataManager.h; sourceTree = "<group>"; };
 		CE55C1031D07761F0023EAB4 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = services/CoreDataManager.m; sourceTree = "<group>"; };
-		CE55C1061D077CBC0023EAB4 /* Player+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Player+CoreDataProperties.h"; path = "entities/Player+CoreDataProperties.h"; sourceTree = "<group>"; };
-		CE55C1071D077CBC0023EAB4 /* Player+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Player+CoreDataProperties.m"; path = "entities/Player+CoreDataProperties.m"; sourceTree = "<group>"; };
-		CE55C1081D077CBC0023EAB4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = entities/Player.h; sourceTree = "<group>"; };
-		CE55C1091D077CBC0023EAB4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = entities/Player.m; sourceTree = "<group>"; };
-		CE55C10A1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlayerDetails+CoreDataProperties.h"; path = "entities/PlayerDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
-		CE55C10B1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlayerDetails+CoreDataProperties.m"; path = "entities/PlayerDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
-		CE55C10C1D077CBC0023EAB4 /* PlayerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerDetails.h; path = entities/PlayerDetails.h; sourceTree = "<group>"; };
-		CE55C10D1D077CBC0023EAB4 /* PlayerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerDetails.m; path = entities/PlayerDetails.m; sourceTree = "<group>"; };
+		CE55C1161D0781490023EAB4 /* Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Player.xcdatamodel; sourceTree = "<group>"; };
+		CE55C1181D0782430023EAB4 /* Player+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Player+CoreDataProperties.h"; path = "model/entities/Player+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE55C1191D0782430023EAB4 /* Player+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Player+CoreDataProperties.m"; path = "model/entities/Player+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE55C11A1D0782430023EAB4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = model/entities/Player.h; sourceTree = "<group>"; };
+		CE55C11B1D0782430023EAB4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = model/entities/Player.m; sourceTree = "<group>"; };
+		CE55C11C1D0782430023EAB4 /* PlayerDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlayerDetails+CoreDataProperties.h"; path = "model/entities/PlayerDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE55C11D1D0782430023EAB4 /* PlayerDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlayerDetails+CoreDataProperties.m"; path = "model/entities/PlayerDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE55C11E1D0782430023EAB4 /* PlayerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerDetails.h; path = model/entities/PlayerDetails.h; sourceTree = "<group>"; };
+		CE55C11F1D0782430023EAB4 /* PlayerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerDetails.m; path = model/entities/PlayerDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +143,9 @@
 		CE55C0A91D072CD00023EAB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE55C0A81D072CD00023EAB4 /* ProjectTemplate.app */,
-				CE55C0C41D072CD00023EAB4 /* ProjectTemplateTests.xctest */,
-				CE55C0CF1D072CD00023EAB4 /* ProjectTemplateUITests.xctest */,
+				CE55C0A81D072CD00023EAB4 /* LineupBuilder.app */,
+				CE55C0C41D072CD00023EAB4 /* LineupBuilder.xctest */,
+				CE55C0CF1D072CD00023EAB4 /* LineupBuilder.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,8 +198,9 @@
 		CE55C0E11D072CDD0023EAB4 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				CE55C1151D0781490023EAB4 /* Player.xcdatamodeld */,
 				CE55C1051D077A940023EAB4 /* entities */,
-				CE55C0B71D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld */,
+				CE1D88841D079EFF00DEF823 /* Games.xcdatamodeld */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -230,6 +243,9 @@
 			isa = PBXGroup;
 			children = (
 				CE55C0F11D0743170023EAB4 /* common.h */,
+				CE1D88811D07908A00DEF823 /* Constants.h */,
+				CE1D88821D07908A00DEF823 /* Constants.m */,
+				CE1D88901D07A88800DEF823 /* Keys.h */,
 			);
 			name = macros;
 			sourceTree = "<group>";
@@ -246,14 +262,18 @@
 		CE55C1051D077A940023EAB4 /* entities */ = {
 			isa = PBXGroup;
 			children = (
-				CE55C1061D077CBC0023EAB4 /* Player+CoreDataProperties.h */,
-				CE55C1071D077CBC0023EAB4 /* Player+CoreDataProperties.m */,
-				CE55C1081D077CBC0023EAB4 /* Player.h */,
-				CE55C1091D077CBC0023EAB4 /* Player.m */,
-				CE55C10A1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.h */,
-				CE55C10B1D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m */,
-				CE55C10C1D077CBC0023EAB4 /* PlayerDetails.h */,
-				CE55C10D1D077CBC0023EAB4 /* PlayerDetails.m */,
+				CE1D88931D07B10A00DEF823 /* Games+CoreDataProperties.h */,
+				CE1D88941D07B10A00DEF823 /* Games+CoreDataProperties.m */,
+				CE1D88951D07B10A00DEF823 /* Games.h */,
+				CE1D88961D07B10A00DEF823 /* Games.m */,
+				CE55C1181D0782430023EAB4 /* Player+CoreDataProperties.h */,
+				CE55C1191D0782430023EAB4 /* Player+CoreDataProperties.m */,
+				CE55C11A1D0782430023EAB4 /* Player.h */,
+				CE55C11B1D0782430023EAB4 /* Player.m */,
+				CE55C11C1D0782430023EAB4 /* PlayerDetails+CoreDataProperties.h */,
+				CE55C11D1D0782430023EAB4 /* PlayerDetails+CoreDataProperties.m */,
+				CE55C11E1D0782430023EAB4 /* PlayerDetails.h */,
+				CE55C11F1D0782430023EAB4 /* PlayerDetails.m */,
 			);
 			name = entities;
 			sourceTree = "<group>";
@@ -278,9 +298,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE55C0A71D072CD00023EAB4 /* ProjectTemplate */ = {
+		CE55C0A71D072CD00023EAB4 /* LineupBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE55C0D81D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "ProjectTemplate" */;
+			buildConfigurationList = CE55C0D81D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "LineupBuilder" */;
 			buildPhases = (
 				0BAFB32B98C49A886CC0E1B1 /* Check Pods Manifest.lock */,
 				CE55C0A41D072CD00023EAB4 /* Sources */,
@@ -293,14 +313,14 @@
 			);
 			dependencies = (
 			);
-			name = ProjectTemplate;
+			name = LineupBuilder;
 			productName = ProjectTemplate;
-			productReference = CE55C0A81D072CD00023EAB4 /* ProjectTemplate.app */;
+			productReference = CE55C0A81D072CD00023EAB4 /* LineupBuilder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE55C0C31D072CD00023EAB4 /* ProjectTemplateTests */ = {
+		CE55C0C31D072CD00023EAB4 /* LineupBuilderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE55C0DB1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "ProjectTemplateTests" */;
+			buildConfigurationList = CE55C0DB1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "LineupBuilderTests" */;
 			buildPhases = (
 				CE55C0C01D072CD00023EAB4 /* Sources */,
 				CE55C0C11D072CD00023EAB4 /* Frameworks */,
@@ -311,14 +331,14 @@
 			dependencies = (
 				CE55C0C61D072CD00023EAB4 /* PBXTargetDependency */,
 			);
-			name = ProjectTemplateTests;
+			name = LineupBuilderTests;
 			productName = ProjectTemplateTests;
-			productReference = CE55C0C41D072CD00023EAB4 /* ProjectTemplateTests.xctest */;
+			productReference = CE55C0C41D072CD00023EAB4 /* LineupBuilder.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE55C0CE1D072CD00023EAB4 /* ProjectTemplateUITests */ = {
+		CE55C0CE1D072CD00023EAB4 /* LineupBuilderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE55C0DE1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "ProjectTemplateUITests" */;
+			buildConfigurationList = CE55C0DE1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "LineupBuilderUITests" */;
 			buildPhases = (
 				CE55C0CB1D072CD00023EAB4 /* Sources */,
 				CE55C0CC1D072CD00023EAB4 /* Frameworks */,
@@ -329,9 +349,9 @@
 			dependencies = (
 				CE55C0D11D072CD00023EAB4 /* PBXTargetDependency */,
 			);
-			name = ProjectTemplateUITests;
+			name = LineupBuilderUITests;
 			productName = ProjectTemplateUITests;
-			productReference = CE55C0CF1D072CD00023EAB4 /* ProjectTemplateUITests.xctest */;
+			productReference = CE55C0CF1D072CD00023EAB4 /* LineupBuilder.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -356,7 +376,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE55C0A31D072CD00023EAB4 /* Build configuration list for PBXProject "ProjectTemplate" */;
+			buildConfigurationList = CE55C0A31D072CD00023EAB4 /* Build configuration list for PBXProject "LineupBuilder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -369,9 +389,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE55C0A71D072CD00023EAB4 /* ProjectTemplate */,
-				CE55C0C31D072CD00023EAB4 /* ProjectTemplateTests */,
-				CE55C0CE1D072CD00023EAB4 /* ProjectTemplateUITests */,
+				CE55C0A71D072CD00023EAB4 /* LineupBuilder */,
+				CE55C0C31D072CD00023EAB4 /* LineupBuilderTests */,
+				CE55C0CE1D072CD00023EAB4 /* LineupBuilderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -461,15 +481,19 @@
 				CE55C0AD1D072CD00023EAB4 /* main.m in Sources */,
 				CE55C0F81D074BEF0023EAB4 /* ImageService.m in Sources */,
 				CE55C1041D07761F0023EAB4 /* CoreDataManager.m in Sources */,
-				CE55C10E1D077CBC0023EAB4 /* Player+CoreDataProperties.m in Sources */,
+				CE55C1201D0782430023EAB4 /* Player+CoreDataProperties.m in Sources */,
+				CE1D88831D07908A00DEF823 /* Constants.m in Sources */,
 				CE55C0EF1D0742440023EAB4 /* HomeView.m in Sources */,
-				CE55C10F1D077CBC0023EAB4 /* Player.m in Sources */,
-				CE55C1101D077CBC0023EAB4 /* PlayerDetails+CoreDataProperties.m in Sources */,
+				CE55C1211D0782430023EAB4 /* Player.m in Sources */,
+				CE55C1221D0782430023EAB4 /* PlayerDetails+CoreDataProperties.m in Sources */,
 				CE55C0EC1D07421D0023EAB4 /* DataService.m in Sources */,
+				CE1D88861D079EFF00DEF823 /* Games.xcdatamodeld in Sources */,
 				CE55C0E91D0741B40023EAB4 /* HomeViewController.m in Sources */,
 				CE55C0FB1D074BF90023EAB4 /* AnalyticsService.m in Sources */,
-				CE55C0B91D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld in Sources */,
-				CE55C1111D077CBC0023EAB4 /* PlayerDetails.m in Sources */,
+				CE1D88971D07B10A00DEF823 /* Games+CoreDataProperties.m in Sources */,
+				CE55C1171D0781490023EAB4 /* Player.xcdatamodeld in Sources */,
+				CE55C1231D0782430023EAB4 /* PlayerDetails.m in Sources */,
+				CE1D88981D07B10A00DEF823 /* Games.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,12 +518,12 @@
 /* Begin PBXTargetDependency section */
 		CE55C0C61D072CD00023EAB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE55C0A71D072CD00023EAB4 /* ProjectTemplate */;
+			target = CE55C0A71D072CD00023EAB4 /* LineupBuilder */;
 			targetProxy = CE55C0C51D072CD00023EAB4 /* PBXContainerItemProxy */;
 		};
 		CE55C0D11D072CD00023EAB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE55C0A71D072CD00023EAB4 /* ProjectTemplate */;
+			target = CE55C0A71D072CD00023EAB4 /* LineupBuilder */;
 			targetProxy = CE55C0D01D072CD00023EAB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -615,7 +639,7 @@
 				INFOPLIST_FILE = ProjectTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotstreakgames.ProjectTemplate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LineupBuilder;
 			};
 			name = Debug;
 		};
@@ -628,7 +652,7 @@
 				INFOPLIST_FILE = ProjectTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotstreakgames.ProjectTemplate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LineupBuilder;
 			};
 			name = Release;
 		};
@@ -639,8 +663,8 @@
 				INFOPLIST_FILE = ProjectTemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotstreakgames.ProjectTemplateTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectTemplate.app/ProjectTemplate";
+				PRODUCT_NAME = LineupBuilder;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LineupBuilder.app/LineupBuilder";
 			};
 			name = Debug;
 		};
@@ -651,8 +675,8 @@
 				INFOPLIST_FILE = ProjectTemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotstreakgames.ProjectTemplateTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectTemplate.app/ProjectTemplate";
+				PRODUCT_NAME = LineupBuilder;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LineupBuilder.app/LineupBuilder";
 			};
 			name = Release;
 		};
@@ -662,7 +686,7 @@
 				INFOPLIST_FILE = ProjectTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotstreakgames.ProjectTemplateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LineupBuilder;
 				TEST_TARGET_NAME = ProjectTemplate;
 			};
 			name = Debug;
@@ -673,7 +697,7 @@
 				INFOPLIST_FILE = ProjectTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotstreakgames.ProjectTemplateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LineupBuilder;
 				TEST_TARGET_NAME = ProjectTemplate;
 			};
 			name = Release;
@@ -681,7 +705,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE55C0A31D072CD00023EAB4 /* Build configuration list for PBXProject "ProjectTemplate" */ = {
+		CE55C0A31D072CD00023EAB4 /* Build configuration list for PBXProject "LineupBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE55C0D61D072CD00023EAB4 /* Debug */,
@@ -690,7 +714,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE55C0D81D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "ProjectTemplate" */ = {
+		CE55C0D81D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "LineupBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE55C0D91D072CD00023EAB4 /* Debug */,
@@ -699,7 +723,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE55C0DB1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "ProjectTemplateTests" */ = {
+		CE55C0DB1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "LineupBuilderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE55C0DC1D072CD00023EAB4 /* Debug */,
@@ -708,7 +732,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE55C0DE1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "ProjectTemplateUITests" */ = {
+		CE55C0DE1D072CD00023EAB4 /* Build configuration list for PBXNativeTarget "LineupBuilderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE55C0DF1D072CD00023EAB4 /* Debug */,
@@ -720,13 +744,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CE55C0B71D072CD00023EAB4 /* ProjectTemplate.xcdatamodeld */ = {
+		CE1D88841D079EFF00DEF823 /* Games.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CE55C0B81D072CD00023EAB4 /* ProjectTemplate.xcdatamodel */,
+				CE1D88851D079EFF00DEF823 /* Games.xcdatamodel */,
 			);
-			currentVersion = CE55C0B81D072CD00023EAB4 /* ProjectTemplate.xcdatamodel */;
-			path = ProjectTemplate.xcdatamodeld;
+			currentVersion = CE1D88851D079EFF00DEF823 /* Games.xcdatamodel */;
+			name = Games.xcdatamodeld;
+			path = model/Games.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CE55C1151D0781490023EAB4 /* Player.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE55C1161D0781490023EAB4 /* Player.xcdatamodel */,
+			);
+			currentVersion = CE55C1161D0781490023EAB4 /* Player.xcdatamodel */;
+			name = Player.xcdatamodeld;
+			path = model/Player.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

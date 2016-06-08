@@ -15,9 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PlayerDetails (CoreDataProperties)
 
-@property (nullable, nonatomic, retain) NSNumber *projected;
+@property (nullable, nonatomic, retain) NSString *fullName;
 @property (nullable, nonatomic, retain) NSString *team;
-@property (nullable, nonatomic, retain) NSString *opponent;
+@property (nullable, nonatomic, retain) NSNumber *projectedScore;
+@property (nullable, nonatomic, retain) NSNumber *projectedValue;
 @property (nullable, nonatomic, retain) Player *player;
 
 @end

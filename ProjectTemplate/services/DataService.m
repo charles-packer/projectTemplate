@@ -7,6 +7,11 @@
 //
 
 #import "DataService.h"
+#import "AFNetworking.h"
+
+@interface DataService()
+
+@end
 
 @implementation DataService
 
@@ -22,9 +27,36 @@
 }
 
 
--(void)getUserData
+-(void)getTodaysGames
 {
     
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+    
+    NSURL *URL = [NSURL URLWithString:kTodaysLineupURL];
+    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+        if (error) {
+            NSLog(@"Error: %@", error);
+        } else {
+            NSArray *responseData;
+            NSError *error = nil;
+            if (responseObject != nil) {
+                responseData = [NSJSONSerialization JSONObjectWithData:responseObject
+                                                               options:NSJSONReadingMutableContainers
+                                                                 error:&error];
+                
+                [[CoreDataManager instance] updateGames:responseData];
+            }
+            
+            NSLog(@"%@ %@", response, responseData);
+
+        }
+    }];
+    [dataTask resume];
 }
 
 @end

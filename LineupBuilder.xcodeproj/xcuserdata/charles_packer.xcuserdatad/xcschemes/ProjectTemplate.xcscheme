@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE55C0A71D072CD00023EAB4"
-               BuildableName = "ProjectTemplate.app"
-               BlueprintName = "ProjectTemplate"
-               ReferencedContainer = "container:ProjectTemplate.xcodeproj">
+               BuildableName = "LineupBuilder.app"
+               BlueprintName = "LineupBuilder"
+               ReferencedContainer = "container:LineupBuilder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE55C0C31D072CD00023EAB4"
-               BuildableName = "ProjectTemplateTests.xctest"
-               BlueprintName = "ProjectTemplateTests"
-               ReferencedContainer = "container:ProjectTemplate.xcodeproj">
+               BuildableName = "LineupBuilder.xctest"
+               BlueprintName = "LineupBuilderTests"
+               ReferencedContainer = "container:LineupBuilder.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE55C0CE1D072CD00023EAB4"
-               BuildableName = "ProjectTemplateUITests.xctest"
-               BlueprintName = "ProjectTemplateUITests"
-               ReferencedContainer = "container:ProjectTemplate.xcodeproj">
+               BuildableName = "LineupBuilder.xctest"
+               BlueprintName = "LineupBuilderUITests"
+               ReferencedContainer = "container:LineupBuilder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE55C0A71D072CD00023EAB4"
-            BuildableName = "ProjectTemplate.app"
-            BlueprintName = "ProjectTemplate"
-            ReferencedContainer = "container:ProjectTemplate.xcodeproj">
+            BuildableName = "LineupBuilder.app"
+            BlueprintName = "LineupBuilder"
+            ReferencedContainer = "container:LineupBuilder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE55C0A71D072CD00023EAB4"
-            BuildableName = "ProjectTemplate.app"
-            BlueprintName = "ProjectTemplate"
-            ReferencedContainer = "container:ProjectTemplate.xcodeproj">
+            BuildableName = "LineupBuilder.app"
+            BlueprintName = "LineupBuilder"
+            ReferencedContainer = "container:LineupBuilder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE55C0A71D072CD00023EAB4"
-            BuildableName = "ProjectTemplate.app"
-            BlueprintName = "ProjectTemplate"
-            ReferencedContainer = "container:ProjectTemplate.xcodeproj">
+            BuildableName = "LineupBuilder.app"
+            BlueprintName = "LineupBuilder"
+            ReferencedContainer = "container:LineupBuilder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

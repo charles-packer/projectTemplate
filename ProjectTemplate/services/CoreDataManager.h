@@ -12,4 +12,5 @@
 
 + (CoreDataManager*)instance;
 -(void)startService;
+-(void)updateGames:(NSArray*)games;
 @end

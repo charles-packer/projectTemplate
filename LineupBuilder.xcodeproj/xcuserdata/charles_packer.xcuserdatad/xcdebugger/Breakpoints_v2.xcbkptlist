@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProjectTemplate/services/DataService.m"
-            timestampString = "487019352.579688"
+            timestampString = "487037165.886289"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "+instance"
             landmarkType = "5">
          </BreakpointContent>
